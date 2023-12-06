@@ -1,0 +1,17 @@
+{
+  "name": "manaus_mythos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"yarn workspace client dev\" \"yarn workspace server dev\"",
+    "build": "concurrently \"yarn workspace client build\" \"yarn workspace server build\""
+  },
+  "author": "nandobfer",
+  "license": "ISC",
+  "workspaces": [
+    "client",
+    "server"
+  ]
+}

@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE `player` ADD COLUMN `actions` INTEGER NOT NULL DEFAULT 50,
+    ADD COLUMN `location` VARCHAR(191) NOT NULL DEFAULT 'Manaus';
